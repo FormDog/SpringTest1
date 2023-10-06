@@ -2,7 +2,7 @@ DTO는 소문자로(카멜케이스로 해도 좋은데, 모두 소문자로 하
 방식은 Controller -> Service(ServiceImpl) -> Mapper(interface) -> Mapper.xml 그리고 DTO(가장 무난함)
 @Mapper 어노테이션을 사용한다면 namespace를 어떻게 정할지 생각할 필요는 없음
 만약, @Mapper를 쓰지 않는다면, 생각해봐야됨
-@Mapper를 고려한다면, 테이블별 패키지(member, board 등등)와 그에 따른 구성요소들(컨트롤러 서비스 등등) 생성
+테이블별 패키지(member, board 등등)와 그에 따른 구성요소들(컨트롤러 서비스 등등) 생성
 (예외적으로 테이블이 없더라도 추가 패키지를 더 만드는 경우가 있을 수 있음)
 
 
